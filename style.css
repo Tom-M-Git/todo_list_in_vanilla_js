@@ -140,4 +140,7 @@ select {
     form {
         flex-wrap: wrap;
     }
+    .todo-input {
+        max-width: 95%;
+    }
 }
