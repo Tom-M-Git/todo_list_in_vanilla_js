@@ -21,6 +21,10 @@ header, form {
     justify-content: center;
     align-items: center;
 }
+form {
+    max-width: 98%;
+    margin: 0 auto;
+}
 
 form input, form button {
     padding: 0.5rem;
@@ -130,4 +134,10 @@ select {
 .select:hover::after {
     background: white;
     color: #ff6f47;
+}
+
+@media (max-width: 534px) {
+    form {
+        flex-wrap: wrap;
+    }
 }
